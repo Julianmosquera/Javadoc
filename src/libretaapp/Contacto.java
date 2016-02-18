@@ -1,15 +1,31 @@
 package libretaapp;
 
+/**
+ * Almacena los datos del contacto
+ * @author julianlinux
+ */
 public class Contacto {
 
-    private string nombre;
+    private String nombre;
 
-    private string Apellido;
+    private String Apellido;
 
     private byte telefono;
 
-    private string mail;
+    private String mail;
+    
+    
+    public void Branch(){
+        
+    }
 
-    public Contacto(String nombre, String apellido, byte telefono, string email) {
+    /**
+     * Se utiliza para indicar las caracteristicas de los objetos creados de esta clase.
+     * @param nombre Se usa indicar el nombre de los contacto que se añaden a libreta
+     * @param apellido Se usa para indicar el apellido de los contactos.
+     * @param telefono Indicamos el telefono de los contactos
+     * @param email Indicamos el email de los contactos añadidos a la libreta
+     */
+    public Contacto(String nombre, String apellido, byte telefono, String email) {
     }
 }
