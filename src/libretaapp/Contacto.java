@@ -2,14 +2,14 @@ package libretaapp;
 
 public class Contacto {
 
-    private string nombre;
+    private String nombre;
 
-    private string Apellido;
+    private String Apellido;
 
     private byte telefono;
 
-    private string mail;
+    private String mail;
 
-    public Contacto(String nombre, String apellido, byte telefono, string email) {
+    public Contacto(String nombre, String apellido, byte telefono, String email) {
     }
 }
