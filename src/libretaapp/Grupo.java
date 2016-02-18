@@ -2,7 +2,7 @@ package libretaapp;
 
 public class Grupo {
 
-    private string nombreGrupo;
+    private String nombreGrupo;
 
     public Grupo() {
     }
