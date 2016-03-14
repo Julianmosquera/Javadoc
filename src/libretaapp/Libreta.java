@@ -6,11 +6,23 @@ package libretaapp;
  */
 public class Libreta {
 
-    /**
-     * jijijijijiji
-     */
+   
     public String nombre;
     private String email;
+
+  
+   /**
+    * 
+    * @param nombre 
+    * @param email 
+    * 
+    */
+    public Libreta(String nombre, String email) {
+        this.nombre = nombre;
+        this.email = email;
+    }
+    
+    
 
     /**
      * Builder of the class with out parameters
@@ -30,8 +42,8 @@ public class Libreta {
      *
      * @return free contact
      */
-    public int cualLibre() {
-        throw new UnsupportedOperationException("Not supported yet.");
+    public int cualLibre(int lib) {
+        return lib;
     }
 
     /**
